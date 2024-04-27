@@ -1,0 +1,13 @@
+@font-face{
+    font-falimy: 'InconsolataNormal';
+    src: url('font/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    font-family: 'InconsolataNormal', sans-serif;
+    color: white;
+}
