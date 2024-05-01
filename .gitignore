@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+*.vspscc
+*.suo
+# Ignore Boost build artifacts
+/boost/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled executables
+*.exe
+*.out
+
+# Ignore CMake build directory
+/CMakeFiles/
+/CMakeScripts/
+/CMakeCache.txt
+/CMakeSettings.json
+/CMakeSettings.json.in
+/*.cmake
+/CMakeLists.txt.user
+
+# Ignore Visual Studio generated files
+*.suo
+*.user
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+
+# Ignore Xcode generated files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+*.xcuserstate
+
+# Ignore IntelliJ generated files
+.idea/
+
+# Ignore Eclipse generated files
+/.project
+/.cproject
+/.settings/
+/.metadata/
+
+# Ignore Code::Blocks generated files
+*.depend
+*.layout
+
+# Ignore VS Code directories
+.vscode/
