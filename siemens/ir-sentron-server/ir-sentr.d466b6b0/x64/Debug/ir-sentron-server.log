@@ -1,0 +1,9 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\ivail\_Spring\Industrial-Programming\siemens\ir-sentron-server\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  ir-sentron-server.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0601 to the compiler command line; or
+  - add _WIN32_WINNT=0x0601 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0601 (i.e. Windows 7 target).
+  ir-sentron-server.vcxproj -> C:\Users\ivail\_Spring\Industrial-Programming\siemens\ir-sentron-server\x64\Debug\ir-sentron-server.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

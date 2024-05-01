@@ -1,5 +1,7 @@
 # Ignore Boost build artifacts
+*/boost
 /boost/
+/packages/
 
 # Ignore compiled object files
 *.o

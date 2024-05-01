@@ -2,8 +2,9 @@
 .vs/
 *.vspscc
 *.suo
+*.hpp
 # Ignore Boost build artifacts
-/boost/
+*/boost
 
 # Ignore compiled object files
 *.o
