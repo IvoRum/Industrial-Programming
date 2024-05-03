@@ -8,6 +8,13 @@ const createWindow = () => {
 
   win.loadFile("index.html");
 };
+const { ipcMain } = require("electron");
+
+// This will receive the variable from the renderer process
+ipcMain.on("setGlobalVariable", (event, variableValue) => {
+  let name = "Nathan";
+  document.getElementById("name").innerHTML = name;
+});
 
 app.whenReady().then(() => {
   createWindow();
