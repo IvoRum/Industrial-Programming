@@ -1,5 +1,5 @@
 // Function to combine two 16-bit registers into a 32-bit floating-point number
-function decodeFloat(registers) {
+export function decodeFloat(registers) {
   // Make sure we have exactly two registers
   if (registers.length !== 2) {
     throw new Error(

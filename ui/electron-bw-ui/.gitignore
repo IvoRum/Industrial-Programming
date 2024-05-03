@@ -27,3 +27,17 @@ yarn.lock
 
 # Optional: Ignore local configuration files
 config/local.json
+# Ignore node_modules directory
+/node_modules
+
+# Ignore npm's cache directory
+.npm
+
+# Ignore environment-specific files
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
