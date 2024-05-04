@@ -1,22 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <title>Hello from Electron renderer!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electron Name Display</title>
   </head>
   <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-    <p id="greeting">Greetings</p>
-    <h1>Hello, my name is <span id="name"></span></h1>
+    <html>
+      <div class="el-meter">
+        <div class="voltage">
+          <h1>Voltage</h1>
+          <a class="voltagell1"></a>
+          <a class="voltagell1"></a>
+          <a class="voltagell1"></a>
+        </div>
+        <div class="current">
+          <h1>Current</h1>
+          <div>L1: <a class="currentl" id="currentl1"></a></div>
+          <div>L2: <a class="currentl" id="currentl2"></a></div>
+          <div>L3: <a class="currentl" id="currentl3"></a></div>
+        </div>
+        <div class="active-power">
+          <h1>Active Power</h1>
+          <a class="activePowerL1"></a>
+          <a class="activePowerL1"></a>
+          <a class="activePowerL1"></a>
+        </div>
+      </div>
+    </html>
+
+    <div id="name-display"></div>
+    <script src="renders/renderer.js"></script>
   </body>
 </html>
